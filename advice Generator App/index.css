@@ -1,0 +1,84 @@
+
+
+
+*{
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(217, 19%, 38%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.card
+{
+    background-color: hsl(217, 19%, 24%);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 1rem;
+}
+
+.title{
+    color:hsl(150, 100%, 66%);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-bottom: 1.7rem;
+}
+
+.advice{
+    font-size: 1.4rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1.6rem;
+    margin: 0 auto;
+}
+
+.number{
+    color: hsl(150, 100%, 66%);
+}
+
+.pattern{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.btn{
+    position: absolute;
+    left: 47%;
+    font-size: 1rem;
+    bottom: -30px;
+    
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    padding: 0.1rem 0.1rem;
+    border-radius: 50%;
+    cursor: pointer;
+   
+    
+    
+   
+}
+
+@media only screen and (max-width:430px){
+
+    .card{
+       
+        padding: 1rem;
+        width: 100%;
+    }
+
+
+}
